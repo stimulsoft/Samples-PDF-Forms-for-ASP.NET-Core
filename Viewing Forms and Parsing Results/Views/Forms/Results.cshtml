@@ -1,0 +1,47 @@
+﻿@using System.Collections;
+@using System.Collections.Generic;
+
+@{
+    var submits = @ViewData["Submits"] as IList;
+}
+<style>
+    tr:nth-child(odd) {
+        background-color: #DDDDDD;
+        color: #000000;
+    }
+
+    tr:nth-child(even) {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
+    table{
+        margin:auto;
+    }
+
+</style>
+
+<table>
+    <tr>
+        <th>Guid</th>
+        <th>Order number</th>
+        <th>Items</th>
+        <th>Total</th>
+        <th>PDF</th>
+
+    </tr>
+    @for (var i = 0; i < submits.Count; i++)
+    {
+        var submit = submits[i] as Hashtable;
+        <tr>
+            <td>@submit["guid"]</td>
+            <td>@submit["orderNumber"]</td>
+            <td>@submit["items"]</td>
+            <td>@submit["total"]</td>
+            @if (submit.ContainsKey("pdf"))
+            {
+                <td><a href="/Forms/ResultPdf?id=@submit["id"]" target="_blank">PDF</a></td>
+            }
+        </tr>
+    }
+</table>
