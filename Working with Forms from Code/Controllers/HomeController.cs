@@ -51,23 +51,30 @@ namespace Working_with_Forms_from_Code.Controllers
             this.Form = new StiForm();
             this.Form.Pages.Add(page);
 
-            return View();
+            ViewBag.FormMessage = "A new Form has been created.";
+
+            return View("Index");
         }
 
         public IActionResult Load()
         {
+            var mrtFileName = "Forms\\Order.mrt";
             this.Form = new StiForm();
-            this.Form.Load("Forms\\Order.mrt");
+            this.Form.Load(mrtFileName);
 
-            return View();
+            ViewBag.FormMessage = $"A new Form has been loaded from a file '{mrtFileName}'";
+
+            return View("Index");
         }
 
         public IActionResult Save()
         {
-            var mrtFileName = $"Forms\\Form_{DateTime.Now.Year}-{DateTime.Now.Month}-{DateTime.Now.Day}_{DateTime.Now.Hour}:{DateTime.Now.Minute}:{DateTime.Now.Second}.mrt";
+            var mrtFileName = $"Forms\\Form_{DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss")}.mrt";
             this.Form.Save(mrtFileName);
 
-            return View();
+            ViewBag.FormMessage = $"The Form has been saved to a file '{mrtFileName}'";
+
+            return View("Index");
         }
 
         public IActionResult Export()
@@ -79,10 +86,12 @@ namespace Working_with_Forms_from_Code.Controllers
             });
 
             var pdfFileBytes = exporter.ExportForm(this.Form);
-            var pdfFileName = $"Forms\\Form_{DateTime.Now.Year}-{DateTime.Now.Month}-{DateTime.Now.Day}_{DateTime.Now.Hour}:{DateTime.Now.Minute}:{DateTime.Now.Second}.pdf";
+            var pdfFileName = $"Forms\\Form_{DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss")}.pdf";
             System.IO.File.WriteAllBytes(pdfFileName, pdfFileBytes);
 
-            return View();
+            ViewBag.FormMessage = $"The Form has been saved to a file '{pdfFileName}'";
+
+            return View("Index");
         }
     }
 }
