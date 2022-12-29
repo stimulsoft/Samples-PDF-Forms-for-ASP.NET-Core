@@ -34,7 +34,7 @@ namespace Working_with_Forms_from_Code.Controllers
 
         /* Forms */
 
-        private StiForm Form = new StiForm();
+        private static StiForm Form = new StiForm();
 
         public IActionResult Create()
         {
@@ -48,8 +48,8 @@ namespace Working_with_Forms_from_Code.Controllers
             var page = new StiFormPage();
             page.Elements.Add(textBox);
 
-            this.Form = new StiForm();
-            this.Form.Pages.Add(page);
+            HomeController.Form = new StiForm();
+            HomeController.Form.Pages.Add(page);
 
             ViewBag.FormMessage = "A new Form has been created.";
 
@@ -59,8 +59,8 @@ namespace Working_with_Forms_from_Code.Controllers
         public IActionResult Load()
         {
             var mrtFileName = "Forms\\Order.mrt";
-            this.Form = new StiForm();
-            this.Form.Load(mrtFileName);
+            HomeController.Form = new StiForm();
+            HomeController.Form.Load(mrtFileName);
 
             ViewBag.FormMessage = $"A new Form has been loaded from a file '{mrtFileName}'";
 
@@ -70,7 +70,7 @@ namespace Working_with_Forms_from_Code.Controllers
         public IActionResult Save()
         {
             var mrtFileName = $"Forms\\Form_{DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss")}.mrt";
-            this.Form.Save(mrtFileName);
+            HomeController.Form.Save(mrtFileName);
 
             ViewBag.FormMessage = $"The Form has been saved to a file '{mrtFileName}'";
 
@@ -85,7 +85,7 @@ namespace Working_with_Forms_from_Code.Controllers
                 ReadOnly = false,
             });
 
-            var pdfFileBytes = exporter.ExportForm(this.Form);
+            var pdfFileBytes = exporter.ExportForm(HomeController.Form);
             var pdfFileName = $"Forms\\Form_{DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss")}.pdf";
             System.IO.File.WriteAllBytes(pdfFileName, pdfFileBytes);
 

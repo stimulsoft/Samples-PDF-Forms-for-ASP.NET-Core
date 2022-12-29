@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
+using Stimulsoft.Base.Json.Linq;
 using Stimulsoft.Form;
 using Stimulsoft.Form.Export.Pdf;
 using Stimulsoft.Form.Items;
@@ -152,8 +152,6 @@ namespace NetCoreAngularApplication.Controllers
                     ["id"] = Submits.Count.ToString()
                 };
 
-                System.IO.File.WriteAllBytes("C:/274/plain.fdf", buffer);
-
                 Submits.Add(submit);
             }
             else
@@ -211,7 +209,8 @@ namespace NetCoreAngularApplication.Controllers
         private StiForm GetForm(string name)
         {
             var formStr = GetFileString("Forms", name);
-            var form = StiForm.LoadFromJson(formStr);
+            var form = new StiForm();
+            form.LoadFromJson(formStr);
 
             var numberBox = form.GetAllItems().FirstOrDefault(i => (i as StiFormElement)?.Name == "OrderNumber") as StiNumberBoxElement;
 
