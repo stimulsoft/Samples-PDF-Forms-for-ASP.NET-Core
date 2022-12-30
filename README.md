@@ -25,4 +25,6 @@ Stimulsoft Forms.WEB is a component for the interactive collection and processin
 
 [NuGet](https://www.nuget.org/packages/Stimulsoft.Forms.Web)
 
+[NPM](https://www.npmjs.com/package/stimulsoft-forms)
+
 [License](LICENSE.md)
