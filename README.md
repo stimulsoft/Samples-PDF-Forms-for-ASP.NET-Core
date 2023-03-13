@@ -1,6 +1,6 @@
 # ASP.NET Core MVC C# samples for Stimulsoft Forms.WEB
 
-#### This repository contains the source code of the examples of usage Stimulsoft Forms.WEB tool in the ASP.NET Core applications, using C# code and Angular components. This product and examples are compatible with .NET Core 3.1 and higher.
+#### This repository contains the source code of the examples of usage Stimulsoft Forms.WEB tool in the ASP.NET Core applications, using C# code and Angular components. This product and examples are compatible with .NET Core 3.1 and higher, including the latest versions of .NET 5.0, NET 6.0, and NET 7.0
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
