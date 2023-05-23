@@ -1,0 +1,39 @@
+﻿@using System.Collections;
+
+<form action="/Home/ShowPdfFieldsData" method="post" enctype="multipart/form-data" id="form">
+1. Cretae PDF form in Stimulsoft.Forms<br />
+2. Fill form in Acrobat Readeror or in other viewer<br />
+3. Save filled form
+<br />
+4. Open file
+    <input name="pdfFile" type="file" accept=".pdf" onchange="document.getElementById('form').submit()"/>
+</form>
+
+@{
+    var pdfData = ViewData["pdfData"] as Hashtable;    
+}
+
+@if (pdfData != null)
+{   
+    var sordedKeys = pdfData.Keys.Cast<string>().ToList();
+    sordedKeys.Sort();
+
+    <table>
+        <thead> 
+            <tr>
+                <td>Key</td>
+                <td>Value</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (string key in sordedKeys)
+             {
+                <tr>
+                    <td>@key</td>
+                    <td>@pdfData[key]</td>
+                </tr>
+             }
+        </tbody>
+    </table>   
+}

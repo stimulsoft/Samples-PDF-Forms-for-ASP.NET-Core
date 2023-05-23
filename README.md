@@ -4,8 +4,20 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
+* Adding Components from Code
+* Changing Properties from Code
+* Create Form with Table
 * Editing a Form in the Designer
-* Viewing Forms and Parsing Results
+* Fill Form Data from Database
+* Generate PDF from Form Submission
+* Integration Form Component
+* Loading Encrypted Form
+* Loading Fields Data from PDF
+* Loading Form from File
+* Loading Form from Resource
+* Loading Form from String
+* Send Form by Email
+* Viewing Forms and Parsing Submission Results
 * Working with Forms from Code
 
 They are all combined in a Visual Studio solution (.sln-file).

@@ -1,0 +1,1848 @@
+{
+  "ReportVersion": "2023.2.1.0",
+  "ReportGuid": "",
+  "ReportName": "",
+  "ReportAlias": "",
+  "ReportCreated": "/Date(1680005345000+0300)/",
+  "ReportChanged": "/Date(1680005505000+0300)/",
+  "ReportImage": "",
+  "Pages": {
+    "0": {
+      "Ident": "StiFormContainer",
+      "Content": {
+        "Pages": [{
+            "Guid": "8a746d2c-5f69-2148-c664-393be7a4c890",
+            "Margins": {
+              "Left": 60,
+              "Top": 0,
+              "Right": 0,
+              "Bottom": 0
+            },
+            "PaperKind": {
+              "Guid": "e18177cc-173f-8589-7b77-da4f11d5646c",
+              "Kind": "A4"
+            },
+            "BackgroundColor": "255,255,255,255",
+            "Visible": true,
+            "Elements": [{
+                "Type": "LabelElement",
+                "Guid": "00f32817-0123-dc97-8038-a62c8ada7fae",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 170,
+                  "Width": 473.98999999999995,
+                  "Height": 20,
+                  "MinWidth": 45.87,
+                  "MinHeight": 15,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 20
+                },
+                "Name": "RecipientLabel",
+                "Text": {
+                  "Value": "Hello",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Left",
+                  "VerticalAlignment": "Center"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "LabelElement",
+                "Guid": "563f2ef3-4199-7299-1e14-cfd5e3eb8519",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 1005,
+                  "Width": 473.98999999999995,
+                  "Height": 20,
+                  "MinWidth": 168.19,
+                  "MinHeight": 20,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 20
+                },
+                "Name": "Label7",
+                "Text": {
+                  "Value": " and for using our product",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Center",
+                  "VerticalAlignment": "Center"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "LabelElement",
+                "Guid": "fd3a2b81-971e-2ad0-4a30-8bd5162289a2",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 985,
+                  "Width": 473.98999999999995,
+                  "Height": 20,
+                  "MinWidth": 321.09,
+                  "MinHeight": 20,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 20
+                },
+                "Name": "Label6",
+                "Text": {
+                  "Value": "Thank you for taking the time to complete the survey",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Center",
+                  "VerticalAlignment": "Center"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "LabelElement",
+                "Guid": "2565b9aa-350d-e854-f5a8-5e7f229d096f",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 250,
+                  "Width": 473.98999999999995,
+                  "Height": 20,
+                  "MinWidth": 351.66999999999996,
+                  "MinHeight": 15,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 20
+                },
+                "Name": "Label5",
+                "Text": {
+                  "Value": "in which you feel we could have improved on. Thank you.",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Left",
+                  "VerticalAlignment": "Center"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "LabelElement",
+                "Guid": "7e3defc7-d0c9-94b2-d6ed-c1dda1e05fa8",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 230,
+                  "Width": 473.98999999999995,
+                  "Height": 20,
+                  "MinWidth": 473.98999999999995,
+                  "MinHeight": 15,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 20
+                },
+                "Name": "Label4",
+                "Text": {
+                  "Value": "fill out our survey to tell us which areas of our service impressed you and areas",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Left",
+                  "VerticalAlignment": "Center"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "LabelElement",
+                "Guid": "e7dc0075-837a-822b-f2f5-b19111694bfd",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 210,
+                  "Width": 473.98999999999995,
+                  "Height": 20,
+                  "MinWidth": 473.98999999999995,
+                  "MinHeight": 15,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 20
+                },
+                "Name": "Label3",
+                "Text": {
+                  "Value": "of our clients. That is why we would appreciate  if you could spare  the time to",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Left",
+                  "VerticalAlignment": "Center"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "LabelElement",
+                "Guid": "2e90d8b2-007b-2a9d-dbe4-101599433df8",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 190,
+                  "Width": 473.98999999999995,
+                  "Height": 20,
+                  "MinWidth": 473.98999999999995,
+                  "MinHeight": 15,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 20
+                },
+                "Name": "Label2",
+                "Text": {
+                  "Value": "At Ex., Inc. we pride ourselves on the services we provide to each and every one",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Left",
+                  "VerticalAlignment": "Center"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "LabelElement",
+                "Guid": "c6b24bf9-6f2c-2185-1a6b-785021872c05",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 0,
+                  "Width": 473.99,
+                  "Height": 135,
+                  "MinWidth": 458.7,
+                  "MinHeight": 45,
+                  "MaxWidth": 473.99,
+                  "MaxHeight": 135
+                },
+                "Name": "Label",
+                "Text": {
+                  "Value": "Customer Satisfaction Survey",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 26,
+                    "Style": "Regular"
+                  },
+                  "Color": "255,0,152,153",
+                  "BackgroundColor": "Transparent",
+                  "HorizontalAlignment": "Center",
+                  "VerticalAlignment": "Bottom"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ExceededMargins": "None"
+              },{
+                "Type": "PanelElement",
+                "Guid": "3cca37be-f8a5-5efb-4e93-0665ad1567e2",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 504.57,
+                  "Y": 0,
+                  "Width": 168.19,
+                  "Height": 1123,
+                  "MinWidth": 168.19,
+                  "MinHeight": 1020,
+                  "MaxWidth": 168.19,
+                  "MaxHeight": 1123
+                },
+                "Name": "Panel",
+                "Label": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Top",
+                  "VerticalAlignment": "Top",
+                  "Width": 150
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Width": 168.19,
+                "Height": 1123,
+                "BackgroundColor": "255,0,152,153",
+                "Elements": [{
+                    "Type": "LabelElement",
+                    "Guid": "b68c0bdf-5dea-d42b-1ac3-cda5c1643016",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 960,
+                      "Width": 167.19,
+                      "Height": 30,
+                      "MinWidth": 69.6,
+                      "MinHeight": 15,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 30
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "example.com",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 8,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "90e56bde-c1ab-f918-565d-0a7e6bbc8401",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 1005,
+                      "Width": 167.19,
+                      "Height": 15,
+                      "MinWidth": 118.32,
+                      "MinHeight": 15,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 15
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "Phone: 1-123-456-7890",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 8,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "dc77aa16-eda6-a6bb-36cc-0298a9bafe3f",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 990,
+                      "Width": 167.19,
+                      "Height": 15,
+                      "MinWidth": 149.64,
+                      "MinHeight": 15,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 15
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "Email: example@example.com",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 8,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "5905651e-3507-5432-880d-4cd4f4e8c1df",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 930,
+                      "Width": 167.19,
+                      "Height": 30,
+                      "MinWidth": 34.8,
+                      "MinHeight": 15,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 30
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "12345",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 8,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "c749e1a5-745c-b500-b6f2-33025daa1ff1",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 915,
+                      "Width": 167.19,
+                      "Height": 15,
+                      "MinWidth": 45.24,
+                      "MinHeight": 15,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 15
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "City, AA",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 8,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "37a4a3ce-3b69-0997-06f6-e182d3d7c717",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 900,
+                      "Width": 167.19,
+                      "Height": 15,
+                      "MinWidth": 80.04,
+                      "MinHeight": 15,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 15
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "321 Example ST",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 8,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "4ae4ade8-e92b-5c54-5869-bd78721debf9",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 860,
+                      "Width": 167.19,
+                      "Height": 40,
+                      "MinWidth": 27.84,
+                      "MinHeight": 20,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 40
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "Inc.",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 11,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "29ee99f8-9e68-7359-d577-e9fb2fe413e5",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 5,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 835,
+                      "Width": 167.19,
+                      "Height": 25,
+                      "MinWidth": 62.64,
+                      "MinHeight": 20,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 25
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "Example,",
+                      "Font": {
+                        "Family": "Segoe UI",
+                        "Size": 11,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Bottom"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "6cf22d5e-3bda-3d65-055d-e0557c59e475",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 10,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 115,
+                      "Width": 167.19,
+                      "Height": 720,
+                      "MinWidth": 42,
+                      "MinHeight": 15,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 720
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "INC.",
+                      "Font": {
+                        "Family": "Tahoma",
+                        "Size": 11,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Top"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  },{
+                    "Type": "LabelElement",
+                    "Guid": "c06aadee-5bac-a871-35ca-641c4bcbc1be",
+                    "Visible": true,
+                    "Enabled": true,
+                    "Padding": {
+                      "Left": 10,
+                      "Top": 0,
+                      "Right": 0,
+                      "Bottom": 0
+                    },
+                    "Geometry": {
+                      "X": 0,
+                      "Y": 0,
+                      "Width": 167.19,
+                      "Height": 115,
+                      "MinWidth": 76.56,
+                      "MinHeight": 20,
+                      "MaxWidth": 167.19,
+                      "MaxHeight": 115
+                    },
+                    "Name": "Label",
+                    "Text": {
+                      "Value": "EXAMPLE,",
+                      "Font": {
+                        "Family": "Tahoma",
+                        "Size": 11,
+                        "Style": "Regular"
+                      },
+                      "Color": "255,255,255,255",
+                      "BackgroundColor": "Transparent",
+                      "HorizontalAlignment": "Left",
+                      "VerticalAlignment": "Bottom"
+                    },
+                    "Border": {
+                      "Pen": {
+                        "Color": "DimGray",
+                        "Style": "Solid",
+                        "Width": 1
+                      },
+                      "DrawLeft": false,
+                      "DrawTop": false,
+                      "DrawRight": false,
+                      "DrawBottom": false
+                    },
+                    "ExceededMargins": "None"
+                  }],
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                }
+              },{
+                "Type": "LineElement",
+                "Guid": "03f6b5f5-fc9c-fc07-7896-5535cde598a5",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 0,
+                  "Top": 15,
+                  "Right": 0,
+                  "Bottom": 15
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 135,
+                  "Width": 473.99,
+                  "Height": 35,
+                  "MinWidth": 15.29,
+                  "MinHeight": 30,
+                  "MaxWidth": 473.99,
+                  "MaxHeight": 35
+                },
+                "Name": "Line",
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "LineColor": "255,204,253,52",
+                "LineThickness": 4,
+                "VerticalAlignment": "Top",
+                "Style": "Solid"
+              },{
+                "Type": "LineElement",
+                "Guid": "f5137c00-3c53-373a-5442-205afaaaee30",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 0,
+                  "Top": 15,
+                  "Right": 0,
+                  "Bottom": 15
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 270,
+                  "Width": 473.98999999999995,
+                  "Height": 35,
+                  "MinWidth": 15.29,
+                  "MinHeight": 30,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 35
+                },
+                "Name": "Line2",
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "LineColor": "255,204,253,52",
+                "LineThickness": 4,
+                "VerticalAlignment": "Top",
+                "Style": "Solid"
+              },{
+                "Type": "MultipleSelectionElement",
+                "Guid": "593a06e4-8c80-3cc9-ba42-6afc59cb9a83",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 305,
+                  "Width": 275.21999999999997,
+                  "Height": 45,
+                  "MinWidth": 275.21999999999997,
+                  "MinHeight": 45,
+                  "MaxWidth": 275.21999999999997,
+                  "MaxHeight": 45
+                },
+                "Name": "UserCapacity",
+                "Label": {
+                  "Value": "In what capacity did you use our product?",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Top",
+                  "VerticalAlignment": "Top",
+                  "Width": 150
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Tooltip": "",
+                "Required": false,
+                "Font": {
+                  "Family": "Segoe UI",
+                  "Size": 10,
+                  "Style": "Regular"
+                },
+                "Columns": 4,
+                "BackgroundColor": "White",
+                "TextColor": "Black",
+                "CheckColor": "Black",
+                "BorderColor": "LightGray",
+                "Options": ["Vendor","Buyer","Landlord","Tenant"],
+                "UseCustomOption": false,
+                "CustomOptionText": "",
+                "SelectedOptions": [],
+                "Prefix": "",
+                "Suffix": ""
+              },{
+                "Type": "TextBoxElement",
+                "Guid": "3258f85d-66ab-76f6-7f51-e5dea229e109",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 8,
+                  "Right": 8,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 350,
+                  "Width": 473.99,
+                  "Height": 35,
+                  "MinWidth": 229.35,
+                  "MinHeight": 35,
+                  "MaxWidth": 473.99,
+                  "MaxHeight": 35
+                },
+                "Name": "HeardAboutFrom",
+                "Label": {
+                  "Value": "Where did you hear about us?",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Left",
+                  "VerticalAlignment": "Center",
+                  "Width": 189
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Font": {
+                  "Family": "Segoe UI",
+                  "Size": 10,
+                  "Style": "Regular"
+                },
+                "Text": "",
+                "BackgroundColor": "White",
+                "TextColor": "Black",
+                "ContentAlignment": "Left",
+                "Tooltip": "",
+                "Required": false,
+                "ReadOnly": false,
+                "IsPassword": false,
+                "IsMultiline": false,
+                "LinesCount": 1,
+                "UseRange": false,
+                "Minimum": 0,
+                "Maximum": 255,
+                "RangeFormat": "Characters",
+                "BorderColor": "LightGray",
+                "BorderWeight": "Thin"
+              },{
+                "Type": "TextBoxElement",
+                "Guid": "a560f712-fb67-28af-a275-aa2d845239e2",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 8,
+                  "Right": 8,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 385,
+                  "Width": 473.98999999999995,
+                  "Height": 35,
+                  "MinWidth": 229.35,
+                  "MinHeight": 35,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 35
+                },
+                "Name": "DecisionToUseReason",
+                "Label": {
+                  "Value": "Why did you decide to use us?",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Left",
+                  "VerticalAlignment": "Center",
+                  "Width": 189
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Font": {
+                  "Family": "Segoe UI",
+                  "Size": 10,
+                  "Style": "Regular"
+                },
+                "Text": "",
+                "BackgroundColor": "White",
+                "TextColor": "Black",
+                "ContentAlignment": "Left",
+                "Tooltip": "",
+                "Required": false,
+                "ReadOnly": false,
+                "IsPassword": false,
+                "IsMultiline": false,
+                "LinesCount": 1,
+                "UseRange": false,
+                "Minimum": 0,
+                "Maximum": 255,
+                "RangeFormat": "Characters",
+                "BorderColor": "LightGray",
+                "BorderWeight": "Thin"
+              },{
+                "Type": "LineElement",
+                "Guid": "d9c59a46-b6c7-f813-041d-5843435aae18",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 0,
+                  "Top": 15,
+                  "Right": 0,
+                  "Bottom": 15
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 420,
+                  "Width": 473.98999999999995,
+                  "Height": 35,
+                  "MinWidth": 15.29,
+                  "MinHeight": 35,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 35
+                },
+                "Name": "Line3",
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "LineColor": "255,204,253,52",
+                "LineThickness": 4,
+                "VerticalAlignment": "Top",
+                "Style": "Solid"
+              },{
+                "Type": "TableElement",
+                "Guid": "ad016d49-e42e-be4e-cb2e-b9d089a57f5f",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 8,
+                  "Bottom": 8
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 455,
+                  "Width": 473.98999999999995,
+                  "Height": 320,
+                  "MinWidth": 428.12,
+                  "MinHeight": 270,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 320
+                },
+                "Name": "Satisfaction",
+                "Label": {
+                  "Value": "Please tell us how satisfied you were with the service you received :",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Top",
+                  "VerticalAlignment": "Top",
+                  "Width": 150
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Font": {
+                  "Family": "Segoe UI",
+                  "Size": 10,
+                  "Style": "Regular"
+                },
+                "Border": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "GridLines": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawHorizontal": false,
+                  "DrawVertical": false
+                },
+                "BackgroundColor": "0,255,255,255",
+                "AlternateRowColors": false,
+                "EvenRowsStyle": "255,249,249,249",
+                "EvenRowsTextColor": "Black",
+                "OddRowsStyle": "255,243,243,243",
+                "OddRowsTextColor": "Black",
+                "TableHeaderText": "",
+                "TableHeaderAlignment": "Left",
+                "TableHeaderColor": "Black",
+                "TableHeaderBackgroundColor": "0,255,255,255",
+                "ShowRowLabels": true,
+                "RowLabels": ["Customer Service","Staff Knowledge","Communication","Feedback","Our website","Arranging viewings","After Sales service","Overall performance"],
+                "RowLabelsHorizontalAlignment": "Left",
+                "RowHeadersBackground": "Transparent",
+                "RowHeadersColor": "Black",
+                "RowHeadersBorder": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "ColumnHeadersBackground": "0,255,255,255",
+                "ColumnHeadersTextColor": "Black",
+                "ColumnHeadersBorder": {
+                  "Pen": {
+                    "Color": "DimGray",
+                    "Style": "Solid",
+                    "Width": 1
+                  },
+                  "DrawLeft": false,
+                  "DrawTop": false,
+                  "DrawRight": false,
+                  "DrawBottom": false
+                },
+                "Columns": [{
+                    "Type": "CheckBoxColumn",
+                    "Guid": "294b0438-2f88-d594-3af1-6d96e912d92a",
+                    "Label": "V. Satisfied",
+                    "HeaderAlignment": "Center",
+                    "CellAlignment": "Center",
+                    "HeaderBackColor": "0,255,255,255",
+                    "HeaderForeColor": "Black",
+                    "BackgroundColor": "Transparent",
+                    "CellBackColor": "White",
+                    "CellForeColor": "Black",
+                    "CellBorderColor": "LightGray",
+                    "Width": 83.33166666666665,
+                    "Font": {
+                      "Family": "Segoe UI",
+                      "Size": 10,
+                      "Style": "Regular"
+                    },
+                    "Cells": [{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      }]
+                  },{
+                    "Type": "CheckBoxColumn",
+                    "Guid": "502f48be-7e70-2738-ea94-66d71ab7997a",
+                    "Label": "Satisfied",
+                    "HeaderAlignment": "Center",
+                    "CellAlignment": "Center",
+                    "HeaderBackColor": "0,255,255,255",
+                    "HeaderForeColor": "Black",
+                    "BackgroundColor": "Transparent",
+                    "CellBackColor": "White",
+                    "CellForeColor": "Black",
+                    "CellBorderColor": "LightGray",
+                    "Width": 70.33166666666665,
+                    "Font": {
+                      "Family": "Segoe UI",
+                      "Size": 10,
+                      "Style": "Regular"
+                    },
+                    "Cells": [{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      }]
+                  },{
+                    "Type": "CheckBoxColumn",
+                    "Guid": "ddd1357c-31f9-aa32-1ed2-12c1d3948fdc",
+                    "Label": "Dissatisfied",
+                    "HeaderAlignment": "Center",
+                    "CellAlignment": "Center",
+                    "HeaderBackColor": "0,255,255,255",
+                    "HeaderForeColor": "Black",
+                    "BackgroundColor": "Transparent",
+                    "CellBackColor": "White",
+                    "CellForeColor": "Black",
+                    "CellBorderColor": "LightGray",
+                    "Width": 81.33166666666668,
+                    "Font": {
+                      "Family": "Segoe UI",
+                      "Size": 10,
+                      "Style": "Regular"
+                    },
+                    "Cells": [{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      }]
+                  },{
+                    "Type": "CheckBoxColumn",
+                    "Guid": "1dad2f75-533b-dcce-9353-dba4ff691658",
+                    "Label": "V. Dissatisfied",
+                    "HeaderAlignment": "Center",
+                    "CellAlignment": "Center",
+                    "HeaderBackColor": "0,255,255,255",
+                    "HeaderForeColor": "Black",
+                    "BackgroundColor": "Transparent",
+                    "CellBackColor": "White",
+                    "CellForeColor": "Black",
+                    "CellBorderColor": "LightGray",
+                    "Width": 89.33166666666668,
+                    "Font": {
+                      "Family": "Segoe UI",
+                      "Size": 10,
+                      "Style": "Regular"
+                    },
+                    "Cells": [{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      },{
+                        "Name": "",
+                        "IsChecked": false
+                      }]
+                  }],
+                "UseTotals": false,
+                "TotalsRowHeader": "Totals",
+                "RowLabelsWidth": 133.6633333333333,
+                "TotalsRowHeaderHorizontalAlignment": "Left",
+                "TotalsRowHeaderVerticalAlignment": "Top",
+                "TotalsRowHeaderColor": "Black",
+                "TotalsValuesWidth": 77,
+                "TotalsHeadersWidth": 77,
+                "TotalsFields": [{
+                    "Guid": "8b575c55-0719-52ce-ff43-06968ed855d8",
+                    "Header": "First",
+                    "Name": "",
+                    "HeaderAlignment": "Right",
+                    "ValueAlignment": "Right",
+                    "HeaderColor": "Black",
+                    "Expression": "{Cell(5,1)}",
+                    "Prefix": "",
+                    "Suffix": "",
+                    "DecimalDigits": 2,
+                    "ThousandSeparator": "None"
+                  },{
+                    "Guid": "ce0beaf5-9158-06f5-307c-057ac99bfe73",
+                    "Header": "Maximum",
+                    "Name": "",
+                    "HeaderAlignment": "Right",
+                    "ValueAlignment": "Right",
+                    "HeaderColor": "Black",
+                    "Expression": "{Max(Col(5))}",
+                    "Prefix": "",
+                    "Suffix": "",
+                    "DecimalDigits": 2,
+                    "ThousandSeparator": "None"
+                  },{
+                    "Guid": "1fbac72a-d170-20fb-4353-4ff72957db9c",
+                    "Header": "Summary",
+                    "Name": "",
+                    "HeaderAlignment": "Right",
+                    "ValueAlignment": "Right",
+                    "HeaderColor": "Black",
+                    "Expression": "{Sum(Col(5))}",
+                    "Prefix": "",
+                    "Suffix": "",
+                    "DecimalDigits": 2,
+                    "ThousandSeparator": "None"
+                  },{
+                    "Guid": "6d1bdf1a-0568-8f27-85b1-9dcb49262a72",
+                    "Header": "Count",
+                    "Name": "",
+                    "HeaderAlignment": "Right",
+                    "ValueAlignment": "Right",
+                    "HeaderColor": "Black",
+                    "Expression": "{Count(Col(5))}",
+                    "Prefix": "",
+                    "Suffix": "",
+                    "DecimalDigits": 2,
+                    "ThousandSeparator": "None"
+                  }]
+              },{
+                "Type": "TextBoxElement",
+                "Guid": "e92c7bd9-a80f-5dc3-66ac-ccb9fbcc89f9",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 0,
+                  "Right": 8,
+                  "Bottom": 8
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 775,
+                  "Width": 473.99,
+                  "Height": 115,
+                  "MinWidth": 412.83,
+                  "MinHeight": 110,
+                  "MaxWidth": 473.99,
+                  "MaxHeight": 115
+                },
+                "Name": "ImprovementAreas",
+                "Label": {
+                  "Value": "Are there any areas is which you feel we could have improved on?",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Top",
+                  "VerticalAlignment": "Center",
+                  "Width": 150
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Font": {
+                  "Family": "Segoe UI",
+                  "Size": 10,
+                  "Style": "Regular"
+                },
+                "Text": "",
+                "BackgroundColor": "White",
+                "TextColor": "Black",
+                "ContentAlignment": "Left",
+                "Tooltip": "",
+                "Required": false,
+                "ReadOnly": false,
+                "IsPassword": false,
+                "IsMultiline": true,
+                "LinesCount": 4,
+                "UseRange": false,
+                "Minimum": 0,
+                "Maximum": 255,
+                "RangeFormat": "Characters",
+                "BorderColor": "LightGray",
+                "BorderWeight": "Thin",
+                "HeightForExport": 76
+              },{
+                "Type": "SingleSelectionElement",
+                "Guid": "53b4629e-27e4-f67c-1c9e-bb0b79b8fb25",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 8,
+                  "Right": 8,
+                  "Bottom": 8
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 890,
+                  "Width": 244.64,
+                  "Height": 60,
+                  "MinWidth": 244.64,
+                  "MinHeight": 60,
+                  "MaxWidth": 244.64,
+                  "MaxHeight": 60
+                },
+                "Name": "SingleSelection3",
+                "Label": {
+                  "Value": "Would you recommend us?",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Left",
+                  "VerticalAlignment": "Top",
+                  "Width": 183
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Tooltip": "",
+                "Required": false,
+                "Font": {
+                  "Family": "Segoe UI",
+                  "Size": 10,
+                  "Style": "Regular"
+                },
+                "Columns": 1,
+                "BackgroundColor": "White",
+                "TextColor": "Black",
+                "CheckColor": "Black",
+                "BorderColor": "LightGray",
+                "Options": ["Yes","No"],
+                "UseCustomOption": false,
+                "CustomOptionText": "",
+                "SelectedOption": "",
+                "Prefix": "",
+                "Suffix": ""
+              },{
+                "Type": "SingleSelectionElement",
+                "Guid": "e689da28-bb74-3e70-0eab-600e1b0f5b93",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 8,
+                  "Top": 8,
+                  "Right": 8,
+                  "Bottom": 8
+                },
+                "Geometry": {
+                  "X": 244.64,
+                  "Y": 890,
+                  "Width": 229.35,
+                  "Height": 60,
+                  "MinWidth": 229.35,
+                  "MinHeight": 60,
+                  "MaxWidth": 229.35,
+                  "MaxHeight": 60
+                },
+                "Name": "SingleSelection",
+                "Label": {
+                  "Value": "Would you use us again?",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 10,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "Alignment": "Left",
+                  "VerticalAlignment": "Top",
+                  "Width": 170
+                },
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "Tooltip": "",
+                "Required": false,
+                "Font": {
+                  "Family": "Segoe UI",
+                  "Size": 10,
+                  "Style": "Regular"
+                },
+                "Columns": 1,
+                "BackgroundColor": "White",
+                "TextColor": "Black",
+                "CheckColor": "Black",
+                "BorderColor": "LightGray",
+                "Options": ["Yes","No"],
+                "UseCustomOption": false,
+                "CustomOptionText": "",
+                "SelectedOption": "",
+                "Prefix": "",
+                "Suffix": ""
+              },{
+                "Type": "LineElement",
+                "Guid": "5d524305-267c-c944-6774-6992ba8e2cdf",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 0,
+                  "Top": 15,
+                  "Right": 0,
+                  "Bottom": 15
+                },
+                "Geometry": {
+                  "X": 0,
+                  "Y": 950,
+                  "Width": 473.98999999999995,
+                  "Height": 35,
+                  "MinWidth": 15.29,
+                  "MinHeight": 35,
+                  "MaxWidth": 473.98999999999995,
+                  "MaxHeight": 35
+                },
+                "Name": "Line4",
+                "Description": {
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 9,
+                    "Style": "Regular"
+                  },
+                  "Color": "Gray"
+                },
+                "LineColor": "255,204,253,52",
+                "LineThickness": 4,
+                "VerticalAlignment": "Top",
+                "Style": "Solid"
+              },{
+                "Type": "ButtonElement",
+                "Guid": "d3021ef9-2d77-e83e-f0f4-c36ab77b747a",
+                "Visible": true,
+                "Enabled": true,
+                "Padding": {
+                  "Left": 4,
+                  "Top": 20,
+                  "Right": 4,
+                  "Bottom": 0
+                },
+                "Geometry": {
+                  "X": 61.16,
+                  "Y": 1025,
+                  "Width": 366.96,
+                  "Height": 65,
+                  "MinWidth": 91.74,
+                  "MinHeight": 65,
+                  "MaxWidth": 366.96,
+                  "MaxHeight": 65
+                },
+                "Name": "Button",
+                "Tooltip": "",
+                "Text": {
+                  "Value": "SEND",
+                  "Font": {
+                    "Family": "Segoe UI",
+                    "Size": 16,
+                    "Style": "Regular"
+                  },
+                  "Color": "Black",
+                  "BackgroundColor": "255,0,152,153"
+                },
+                "ButtonType": "SendForm",
+                "FormSendURL": "",
+                "ButtonSendType": "XFDF",
+                "DateStandartFormat": true,
+                "SubmissionMessage": "Thank you! Your submission has been sent."
+              }]
+          }],
+        "Settings": {
+          "Label": {
+            "Font": {
+              "Family": "Segoe UI",
+              "Size": 10,
+              "Style": "Regular"
+            },
+            "Color": "Black",
+            "Alignment": "Left",
+            "Width": 150
+          },
+          "Description": {
+            "Font": {
+              "Family": "Segoe UI",
+              "Size": 9,
+              "Style": "Regular"
+            },
+            "Color": "Gray"
+          },
+          "InnerText": {
+            "Font": {
+              "Family": "Segoe UI",
+              "Size": 10,
+              "Style": "Regular"
+            },
+            "Color": "Black",
+            "BackColor": "White",
+            "BorderColor": "LightGray",
+            "CheckColor": "Black",
+            "BorderWeight": "Thin",
+            "contentAlignment": "Left"
+          },
+          "TimeFormat": "HH:MM:ss",
+          "DateFormat": "dd.mm.yyyy HH:MM",
+          "DateTimeFormat": "m/d/yy h:MM tt",
+          "DecimalDigits": 2,
+          "GridColumns": "48",
+          "GridVerticalStep": 5,
+          "Currency": "USD",
+          "CurrencyFormat": "Code",
+          "UnitAlignment": "Prefix",
+          "Separator": "Comma",
+          "Padding": {
+            "Left": 8,
+            "Top": 8,
+            "Right": 8,
+            "Bottom": 8
+          }
+        },
+        "Guid": "b5bfa8be-7871-0a44-9183-59bf2c181f34",
+        "VersionKey": "",
+        "UserId": ""
+      }
+    }
+  }
+}

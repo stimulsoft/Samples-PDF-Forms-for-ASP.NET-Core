@@ -8,25 +8,16 @@ import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
   template: `
     <stimulsoft-forms
       #fromComponent
-      [requestUrl]="'http://localhost:7536/Forms/Action'"
+      [requestUrl]="'http://localhost:59904/Forms/Action'"
       [properties]="properties"
       [form]="form"
+      [style.width]="'100%'"
+      [style.height]="'100%'"
       (interfaceEvent)="interfaceEvent($event)"
       id="sti-form"
     >
     </stimulsoft-forms>
-  `,
-  styles: [
-    `
-      :host {
-        height: 100%;
-        width: 100%;
-      }
-      stimulsoft-forms {
-        height: 100%;
-      }
-    `,
-  ],
+  `
 })
 export class AppComponent {
 

@@ -10,12 +10,21 @@ using System.Linq;
 using System.Threading.Tasks;
 using Working_with_Forms_from_Code.Models;
 using Stimulsoft.Form.Export.Pdf;
+using Stimulsoft.Form.Pdf.Export;
 
 namespace Working_with_Forms_from_Code.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+
+        static HomeController()
+        {
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -79,11 +88,7 @@ namespace Working_with_Forms_from_Code.Controllers
 
         public IActionResult Export()
         {
-            var exporter = new StiPdfExporter(new StiPdfExporterSettings
-            {
-                UsePdfA = false,
-                ReadOnly = false,
-            });
+            var exporter = new StiPdfExporter();
 
             var pdfFileBytes = exporter.ExportForm(HomeController.Form);
             var pdfFileName = $"Forms\\Form_{DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss")}.pdf";

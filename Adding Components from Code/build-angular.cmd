@@ -1,0 +1,2 @@
+cd ClientApp
+call build

@@ -1,25 +1,26 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Stimulsoft.Base;
+﻿using Microsoft.AspNetCore.Mvc;
 using Stimulsoft.Base.Json.Linq;
-using Stimulsoft.Form.Items;
-using Stimulsoft.Form.Localization;
-using Stimulsoft.Form.Result;
 using Stimulsoft.Form.Web;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using System.Text.Json;
 
-namespace NetCoreAngularApplication.Controllers
+namespace Editing_a_Form_in_the_Designer.Controllers
 {
     [Controller]
     public class FormsController : Controller
-    {        
+    {
+        static FormsController()
+        {
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
         [HttpPost]
         public IActionResult Action()
         {
