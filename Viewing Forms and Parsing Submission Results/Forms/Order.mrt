@@ -1234,7 +1234,7 @@
                   "BackgroundColor": "255,222,222,222"
                 },
                 "ButtonType": "SendForm",
-                "FormSendURL": "http://localhost:9429/Forms/Submit",
+                "FormSendURL": "http://localhost:59908/Forms/Submit",
                 "ButtonSendType": "XFDF",
                 "DateStandartFormat": true,
                 "SubmissionMessage": "Thank you!"
