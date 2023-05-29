@@ -11,4 +11,5 @@
 *.user
 *.pubxml
 *.PublishSettings
+package-lock.json
 .DS_Store
