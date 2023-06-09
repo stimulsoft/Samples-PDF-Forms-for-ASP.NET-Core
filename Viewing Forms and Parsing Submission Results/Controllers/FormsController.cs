@@ -2,12 +2,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Stimulsoft.Base.Json.Linq;
 using Stimulsoft.Form;
+using Stimulsoft.Form.Export.Pdf;
 using Stimulsoft.Form.Items;
 using Stimulsoft.Form.Items.Elements;
 using Stimulsoft.Form.Pdf.Export;
 using Stimulsoft.Form.Submission;
 using Stimulsoft.Form.Web;
-using Stimulsoft.Form.Export;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -167,7 +167,7 @@ namespace Viewing_Forms_and_Parsing_Submission_Results.Controllers
                 StiPdfFormSubmission submission = new StiPdfFormSubmission();
                 submission.ParseXFDF(buffer);
                 var formGuid = submission.GetValue("StiFormGuid");
-                order = submission.GetValue("OrderNumber").ToString();
+                order = submission.GetValue("OrderNumber");
                 var tableName = "OrderItems";
                 var total = submission.GetTableTotalFieldValue(tableName, 2);
 

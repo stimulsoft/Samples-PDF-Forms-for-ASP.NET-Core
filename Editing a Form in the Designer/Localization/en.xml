@@ -495,7 +495,7 @@
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
     <ShowNotificationMessages>Show Notification Messages</ShowNotificationMessages>
-    <Submissions>Submissions</Submissions>
+	<Submissions>Submissions</Submissions>
     <Subscriptions>Subscriptions</Subscriptions>
     <TabItemEmbedCode>Embed Code</TabItemEmbedCode>
     <TabItemQRCode>QR Code</TabItemQRCode>
@@ -588,7 +588,6 @@
     <WizardTeamShare>Team Access</WizardTeamShare>
     <WizardTeamShareDescription>External access for users of one workspace only.</WizardTeamShareDescription>
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
-    <YourPlan>Your Plan</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
@@ -2451,7 +2450,6 @@
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Execution error</ExecutionError>
-    <GracePeriod>The grace period of your subscription will expire in {0} days.</GracePeriod>
     <IsIdentical>"{0}" and "{1}" are identical."</IsIdentical>
     <IsNotAuthorized>No access to "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" is incorrect!</IsNotCorrect>
@@ -3974,7 +3972,6 @@
     <Footers>Footers</Footers>
     <ForeColor>Fore Color</ForeColor>
     <Format>Format</Format>
-    <FormName>Form Name</FormName>
     <FormSettings>Form Settings</FormSettings>
     <Fourth>Fourth</Fourth>
     <From>From</From>
@@ -4081,7 +4078,6 @@
     <InitialSelection>Initial Selection</InitialSelection>
     <InitialSelectionSource>Initial Selection Source</InitialSelectionSource>
     <InnerText>Inner Text</InnerText>
-    <Input>Input</Input>
     <Insert>Insert</Insert>
     <Interaction>Interaction</Interaction>
     <InterlacedBrush>Interlaced Brush</InterlacedBrush>

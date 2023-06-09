@@ -5,7 +5,7 @@
     <RootNamespace>Send_Form_by_Email</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.2.6" />
+    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.2.5" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Data\CustomerSatisfactionSurvey.mrt">
