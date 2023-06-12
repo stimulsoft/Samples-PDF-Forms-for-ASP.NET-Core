@@ -2,11 +2,6 @@
 using Stimulsoft.Base.Json.Linq;
 using Stimulsoft.Form.Web;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using System.Text;
 
 namespace Integration_Form_Component.Controllers
 {

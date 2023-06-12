@@ -2,8 +2,6 @@
 using Stimulsoft.Form.Pdf.Export;
 using Stimulsoft.Form.Items;
 using Stimulsoft.Form.Items.Elements;
-using System;
-using System.Collections;
 using System.IO;
 using System.Net;
 using System.Net.Mail;

@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.IO;
 using Stimulsoft.Form.Pdf.Import.ParsePdf;
 using Stimulsoft.Form.Pdf.Import.Helper;

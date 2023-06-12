@@ -10,7 +10,6 @@ using System;
 using Microsoft.AspNetCore.Http;
 using Stimulsoft.Form.Submission;
 using Stimulsoft.Form.Helpers;
-using System.Diagnostics;
 using Stimulsoft.Form.Pdf.Export;
 
 namespace Generate_PDF_from_Form_Submission.Controllers

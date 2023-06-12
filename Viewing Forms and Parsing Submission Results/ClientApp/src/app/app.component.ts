@@ -29,7 +29,7 @@ import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
         width="100%"
         height="100%" />
     <div *ngIf="mode=='pdf-form-as-pdf'">
-        Submit as PDF allowed only in Acrobat Reader, please <a href="http://localhost:9429/Forms/Pdf?name=Order.mrt&submit=pdf" download="Order.pdf">download</a> file & open it in Acrobat Reader.
+        Submit as PDF allowed only in Acrobat Reader, please <a href="http://localhost:59908/Forms/Pdf?name=Order.mrt&submit=pdf" download="Order.pdf">download</a> file & open it in Acrobat Reader.
     </div>
     <iframe *ngIf="mode=='results'"
         src="http://localhost:59908/Forms/Results?name=Order.mrt"

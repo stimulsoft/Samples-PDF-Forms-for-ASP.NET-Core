@@ -1,5 +1,3 @@
-using System;
-
 namespace Working_with_Forms_from_Code.Models
 {
     public class ErrorViewModel

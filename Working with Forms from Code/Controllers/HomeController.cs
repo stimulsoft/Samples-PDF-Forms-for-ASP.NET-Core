@@ -4,12 +4,6 @@ using Stimulsoft.Form.Items.Elements;
 using Stimulsoft.Form.Items;
 using Stimulsoft.Form.Properties;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Working_with_Forms_from_Code.Models;
-using Stimulsoft.Form.Export.Pdf;
 using Stimulsoft.Form.Pdf.Export;
 
 namespace Working_with_Forms_from_Code.Controllers
