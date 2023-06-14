@@ -11,27 +11,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Changing Properties from Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adding Components from Code", "Adding Components from Code\Adding Components from Code.csproj", "{26FBBBFF-B1F7-444A-823E-EFC15B341907}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Create Form with Table", "Create Form with Table\Create Form with Table.csproj", "{64203F8E-B49F-4DA8-8B91-17A8A9F73EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creating a Form with Table", "Creating a Form with Table\Creating a Form with Table.csproj", "{64203F8E-B49F-4DA8-8B91-17A8A9F73EC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading Form from String", "Loading Form from String\Loading Form from String.csproj", "{29DBDC2A-C290-4476-953F-E51E1C7FFE19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading a Form from String", "Loading a Form from String\Loading a Form from String.csproj", "{29DBDC2A-C290-4476-953F-E51E1C7FFE19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send Form by Email", "Send Form by Email\Send Form by Email.csproj", "{7515CC35-A971-41AD-BB26-390F38522F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sending a Form by Email", "Sending a Form by Email\Sending a Form by Email.csproj", "{7515CC35-A971-41AD-BB26-390F38522F95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading Form from File", "Loading Form from File\Loading Form from File.csproj", "{AAD9EA12-7433-4C92-9BC5-874A28AD12DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading a Form from File", "Loading a Form from File\Loading a Form from File.csproj", "{AAD9EA12-7433-4C92-9BC5-874A28AD12DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading Form from Resource", "Loading Form from Resource\Loading Form from Resource.csproj", "{AE2AAE6A-7297-46F1-B1A5-C2B29226CAD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading a Form from Resource", "Loading a Form from Resource\Loading a Form from Resource.csproj", "{AE2AAE6A-7297-46F1-B1A5-C2B29226CAD2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading Encrypted Form", "Loading Encrypted Form\Loading Encrypted Form.csproj", "{570F8248-6F73-4FE9-B1D2-BC0D65947E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading an Encrypted Form", "Loading an Encrypted Form\Loading an Encrypted Form.csproj", "{570F8248-6F73-4FE9-B1D2-BC0D65947E5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate PDF from Form Submission", "Generate PDF from Form Submission\Generate PDF from Form Submission.csproj", "{6BFB8412-C077-4430-83F7-DD6E14C78259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generating PDF from Form Submission", "Generating PDF from Form Submission\Generating PDF from Form Submission.csproj", "{6BFB8412-C077-4430-83F7-DD6E14C78259}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viewing Forms and Parsing Submission Results", "Viewing Forms and Parsing Submission Results\Viewing Forms and Parsing Submission Results.csproj", "{232135C9-C8F9-4FD2-9796-129B96F239B1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loading Fields Data from PDF", "Loading Fields Data from PDF\Loading Fields Data from PDF.csproj", "{E65CB400-EA0F-42B9-B93C-C666B269503F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fill Form Data from Database", "Fill Form Data from Database\Fill Form Data from Database.csproj", "{6CC83CB7-2B2A-4B28-B2D0-3471E14F7419}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filling Form Data from Database", "Filling Form Data from Database\Filling Form Data from Database.csproj", "{6CC83CB7-2B2A-4B28-B2D0-3471E14F7419}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration Form Component", "Integration Form Component\Integration Form Component.csproj", "{A80BBCEF-32B3-40C6-B21E-74CD24A88AC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integrating a Form Component", "Integrating a Form Component\Integrating a Form Component.csproj", "{A80BBCEF-32B3-40C6-B21E-74CD24A88AC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
