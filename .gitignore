@@ -1,15 +1,27 @@
-# Folders
+# IDEs and editors
 .vs/
-/packages/
-/*/packages/
-/*/bin/
-/*/obj/
-/*/node_modules/
-/*/wwwroot/
-
-# Files
+.vscode/
+.idea/
 *.user
 *.pubxml
 *.PublishSettings
-package-lock.json
+
+# Compiled files
+/**/.angular/cache
+/**/package-lock.json
+/*/bin/
+/*/obj/
+/*/wwwroot/
+
+# Packages
+/packages/
+/*/packages/
+/**/node_modules/
+/**/node_modules_test/
+
+# Other files
 .DS_Store
+Thumbs.db
+*-test.cmd
+*.Test.csproj
+*.Test.sln
