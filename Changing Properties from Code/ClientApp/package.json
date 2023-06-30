@@ -23,7 +23,7 @@
     "primeng": "^14.1.2",
     "resize-observer-polyfill": "^1.5.1",
     "rxjs": "~6.5.0",
-    "stimulsoft-forms": "^2023.2.5",
+    "stimulsoft-forms": "2023.2.8",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
