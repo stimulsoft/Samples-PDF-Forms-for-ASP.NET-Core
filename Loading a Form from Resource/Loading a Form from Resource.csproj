@@ -10,6 +10,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.2.7" />
+    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.2.8" />
   </ItemGroup>
 </Project>

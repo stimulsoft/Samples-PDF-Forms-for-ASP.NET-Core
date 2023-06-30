@@ -48,7 +48,7 @@ namespace Sending_a_Form_by_Email
 
             foreach (string mail in Recipients.Keys)
             {
-                label.Expression = $"Hello, {Recipients[mail]}";
+                label.Text.Expression = $"Hello, {Recipients[mail]}";
 
                 var pdf = pdfExporter.ExportForm(form);
 

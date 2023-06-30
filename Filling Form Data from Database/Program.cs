@@ -40,7 +40,7 @@ namespace Filling_Form_Data_from_Database
                 var mail = reader.GetString("mail");
                 var recipient = reader.GetString("recipient");
 
-                label.Expression = $"Hello, {recipient}";
+                label.Text.Expression = $"Hello, {recipient}";
 
                 var pdf = pdfExporter.ExportForm(form);
 

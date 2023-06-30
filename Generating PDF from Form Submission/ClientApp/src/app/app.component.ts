@@ -46,7 +46,7 @@ export class AppComponent {
     setInterval(() => {
       this.formService.postData({ action: 'IsDataChanged' }, (data: any) => {
         if (data === true) {
-          this.iframe.nativeElement.src = "http://localhost:9429/Forms/GetPdf";
+          this.iframe.nativeElement.src = "http://localhost:59905/Forms/GetPdf";
         }
       }, { showProgress: false });
     }, 1500);
@@ -61,7 +61,7 @@ export class AppComponent {
         break;
 
       case 'FormSubmitted':
-        this.iframe.nativeElement.src = "http://localhost:9429/Forms/GetPdf";
+        this.iframe.nativeElement.src = "http://localhost:59905/Forms/GetPdf";
         break;
 
       case 'FormNew':

@@ -8,6 +8,7 @@ using Stimulsoft.Form.Web;
 using System;
 using System.Collections;
 using System.Text;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Creating_a_Form_with_Table.Controllers
 {
@@ -75,18 +76,21 @@ namespace Creating_a_Form_with_Table.Controllers
             var page = new StiFormPage();
             form.Pages.Add(page);
 
-            page.Elements.Add(new StiLabelElement()
+            var label = new StiLabelElement()
             {
-                Expression = "Custom Order Form",
-                ElementFont = new System.Drawing.Font("Segoe UI", 44, System.Drawing.FontStyle.Bold),
-                HorizontalAlignment = StiHorizontalAlignment.Center,
                 Geometry = new StiRectangleGeometry(0, 0, page.ContentAreaWidth, 200)
-            }); 
+            };
+
+            label.Text.Expression = "Custom Order Form";
+            label.Text.Font = new System.Drawing.Font("Segoe UI", 44, System.Drawing.FontStyle.Bold);
+            label.Text.HorizontalAlignment = StiHorizontalAlignment.Center;            
+
+            page.Elements.Add(label); 
 
             var table = new StiTableElement()
             {
                 Geometry = new StiRectangleGeometry(0, 200, page.ContentAreaWidth, 500),
-                ElementPadding = new StiPadding(0)
+                Padding = new StiPadding(0)
             };
 
             table.Columns.Add(new StiTextBoxColumnItem()
@@ -152,12 +156,13 @@ namespace Creating_a_Form_with_Table.Controllers
 
             page.Elements.Add(table);
 
-            page.Elements.Add(new StiButtonElement()
+            var button = new StiButtonElement()
             {
-                Text = "Submit",
                 ButtonType = StiButtonType.SendForm,
-                Geometry = new StiRectangleGeometry(page.ContentAreaWidth / 2 - 200, 700, 400, 100)                
-            });
+                Geometry = new StiRectangleGeometry(page.ContentAreaWidth / 2 - 200, 700, 400, 100)
+            };
+            button.Text.Value = "Submit";
+            page.Elements.Add(button);
 
             return form;
         }

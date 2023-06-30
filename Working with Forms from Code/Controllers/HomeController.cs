@@ -43,10 +43,10 @@ namespace Working_with_Forms_from_Code.Controllers
         {
             var textBox = new StiTextBoxElement
             {
-                Label = "Example Text Box",
                 Geometry = new StiRectangleGeometry(0, 0, 400, 100).WithMaxWidth(400).WithMaxHeight(100),
                 Text = "Initial Text",
             };
+            textBox.Text = "Example Text Box";
 
             var page = new StiFormPage();
             page.Elements.Add(textBox);

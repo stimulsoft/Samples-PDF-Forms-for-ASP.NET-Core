@@ -72,8 +72,8 @@ namespace Changing_Properties_from_Code.Controllers
         private StiForm ChangeFormProperties(StiForm form)
         {
             var labelCompanyName = form.GetElementByName("CompanyName") as StiLabelElement;
-            labelCompanyName.Expression = "My Company";
-            labelCompanyName.ElementFont = new System.Drawing.Font("Arial", 20);
+            labelCompanyName.Text.Expression = "My Company";
+            labelCompanyName.Text.Font = new System.Drawing.Font("Arial", 20);
           
             //Save-load form just for sample
             var savedForm = form.SaveToString();

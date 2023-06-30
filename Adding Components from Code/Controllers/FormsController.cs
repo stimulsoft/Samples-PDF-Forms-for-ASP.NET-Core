@@ -79,9 +79,9 @@ namespace Adding_Components_from_Code.Controllers
             {
                 Geometry = new Stimulsoft.Form.Properties.StiRectangleGeometry(0, 20, 400, 70),
             };
-            companyName.Expression = "Company Name";
-            companyName.ElementFont = new System.Drawing.Font("Arial", 22);
-            companyName.HorizontalAlignment = Stimulsoft.Form.StiHorizontalAlignment.Left;
+            companyName.Text.Expression = "Company Name";
+            companyName.Text.Font = new System.Drawing.Font("Arial", 22);
+            companyName.Text.HorizontalAlignment = Stimulsoft.Form.StiHorizontalAlignment.Left;
 
             form.Pages[0].Elements.Add(image);
             form.Pages[0].Elements.Add(companyName);

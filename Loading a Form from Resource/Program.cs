@@ -11,7 +11,7 @@ namespace Loading_a_Form_from_Resource
         static void Main(string[] args)
         {
             var form = new StiForm();
-            form.LoadFromResource(Type.GetType("Loading_a_Form_from_Resource.Program").Assembly, "Loading_a_Form_from_Resource.Data.SoftwareEvaluationSurvey.mrt");
+            form.LoadFromResource(Type.GetType("Loading_a_Form_from_Resource.Program").Assembly, "Loading a Form from Resource.Data.SoftwareEvaluationSurvey.mrt");
 
             var exporter = new StiPdfExporter();
             var pdf = exporter.ExportForm(form);
