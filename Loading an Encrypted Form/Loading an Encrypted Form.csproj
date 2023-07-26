@@ -5,7 +5,7 @@
     <RootNamespace>Loading_an_Encrypted_Form</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.2.8" />
+    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.3.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Data\SoftwareEvaluationSurvey.mdx">
