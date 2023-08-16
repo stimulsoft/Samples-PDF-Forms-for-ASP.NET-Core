@@ -13,7 +13,7 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.3.1" />
+    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.3.2" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Forms\Order.mrt">
