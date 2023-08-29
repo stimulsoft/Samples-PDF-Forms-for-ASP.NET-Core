@@ -4,6 +4,6 @@
     <RootNamespace>Loading_Fields_Data_from_PDF</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.3.2" />
+    <PackageReference Include="Stimulsoft.Forms.Web" Version="2023.3.3" />
   </ItemGroup>
 </Project>
