@@ -71,7 +71,7 @@ namespace Working_with_Forms_from_Code.Controllers
         }
 
         public IActionResult Save()
-        {
+        { 
             var mrtFileName = $"Forms\\Form_{DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss")}.mrt";
             HomeController.Form.Save(mrtFileName);
 
