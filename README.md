@@ -29,7 +29,7 @@ In order to start simply open the Visual Studio solution file in the IDE and run
 Stimulsoft Forms is a component for the interactive collection and processing of user data. The Forms tool easily integrates into your project or application, has an intuitive and user-friendly interface, and allows you to create rich form templates. Stimulsoft Forms is a new level of interaction with users in your application.
 
 ## Useful links
-* [Live Demo](http://demo.stimulsoft.com/#Net)
+* [Live Demo](https://demo.stimulsoft.com/?viewmode=forms)
 * [Product Page](https://www.stimulsoft.com/en/products/forms)
 * [Free Download](https://www.stimulsoft.com/en/downloads)
 * [NuGet](https://www.nuget.org/packages/Stimulsoft.Forms.Web)
