@@ -579,7 +579,7 @@
                 "BorderWeight": "Thin",
                 "HorizontalAlignment": "Right",
                 "ValueType": "Date",
-                "InitialState": "Custom",
+                "InitialState": "Current",
                 "AllowNull": false,
                 "DateTimeValueIsNotNull": true,
                 "DateValue": "2061-07-28T18:38:00.000Z",
