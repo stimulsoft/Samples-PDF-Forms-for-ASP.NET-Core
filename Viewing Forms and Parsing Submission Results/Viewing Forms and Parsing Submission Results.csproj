@@ -21,7 +21,7 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2024.4.1" />
+    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2024.4.2" />
   </ItemGroup>
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="build-angular.cmd" />
