@@ -43,6 +43,10 @@ export class AppComponent {
         });
         break;
 
+      case "FormOpen":
+        this.callOpenDialog();
+        break;
+
       case "Loaded":
         let form: StiForm = this.formService.createElement("Form");
         if (event.data.form) {
@@ -51,6 +55,24 @@ export class AppComponent {
         this.form = form;
         break;
     }
+  }
+
+  public callOpenDialog() {
+    let input: any = document.createElement("input");
+    input.type = "file";
+    let this_ = this;
+    input.onchange = () => {
+      let file: any = Array.from(input.files)[0];
+      this_.formName = input.files[0].name;
+      var reader = new FileReader();
+      reader.readAsText(file, "UTF-8");
+      reader.onload = function (evt: any) {
+        let form: StiForm = this_.formService.createElement("Form");
+        form.loadFormJsonString(evt.target.result as string);
+        this_.form = form;
+      };
+    };
+    input.click();
   }
 
 
