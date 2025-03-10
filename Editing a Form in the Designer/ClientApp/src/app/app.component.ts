@@ -38,7 +38,7 @@ export class AppComponent {
 
       case "FormSave":
       case "FormSaveAs":
-        this.formService.postData({ action: "FormSave", formName: event.data.name ?? this.formName, form: this.form.saveToReportJsonObject().serialize() }, (data: any) => {
+        this.formService.postData({ action: "FormSave", formName: event.data.name ?? this.formName, form: this.formService.base64Encode(event.data.form.saveToReportJsonObject().serialize()) }, (data: any) => {
           console.log(data);
         });
         break;

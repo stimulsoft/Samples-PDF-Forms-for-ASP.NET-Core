@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Stimulsoft.Base.Json.Linq;
+using Stimulsoft.Form.Items;
 using Stimulsoft.Form.Web;
 using System;
 using System.Collections;
@@ -50,8 +51,12 @@ namespace Editing_a_Form_in_the_Designer.Controllers
                         return Json("{}");
 
                     case "FormSave":
+                        var form = new StiForm();
+                        form.Load(Convert.FromBase64String(data["form"].ToString()));
                         var formName = data["formName"].ToString();
-                        SaveFileString("Forms", formName, data["form"].ToString());
+                        var filePath = GetFilePath("Forms", formName);
+                        form.Save(filePath);
+
                         return Json("{result: \"ok\"}");
 
                     default:
@@ -116,13 +121,9 @@ namespace Editing_a_Form_in_the_Designer.Controllers
             }
         }
 
-        private void SaveFileString(string folder, string fileName, string content)
+        private void SaveFileString(string folder, string fileName, StiForm form)
         {
-            var filePath = GetFilePath(folder, fileName);
-            using (var writer = new StreamWriter(filePath))
-            {
-                writer.Write(content);
-            }
+            
         }
     }
 }

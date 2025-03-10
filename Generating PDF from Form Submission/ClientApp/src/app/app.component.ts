@@ -69,7 +69,7 @@ export class AppComponent {
         break;
 
       case 'FormSave':
-        this.formService.postData({ action: 'SaveForm', form: this.formService.base64Encode(this.form.saveToReportJsonObject().serialize()) }, () => { });
+        this.formService.postData({ action: 'SaveForm', form: this.formService.base64Encode(event.data.form.saveToReportJsonObject().serialize()) }, () => { });
         break;
     }
   }
