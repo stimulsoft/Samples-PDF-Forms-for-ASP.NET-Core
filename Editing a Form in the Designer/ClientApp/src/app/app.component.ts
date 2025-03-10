@@ -50,7 +50,7 @@ export class AppComponent {
       case "Loaded":
         let form: StiForm = this.formService.createElement("Form");
         if (event.data.form) {
-          form.loadFormJsonString(atob(event.data.form));
+          form.loadFormJsonString(this.formService.base64Decode(event.data.form));
         }
         this.form = form;
         break;
