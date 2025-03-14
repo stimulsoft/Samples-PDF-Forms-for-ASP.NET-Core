@@ -8,7 +8,6 @@ using Stimulsoft.Form.Web;
 using System;
 using System.Collections;
 using System.Text;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Creating_a_Form_with_Table.Controllers
 {
@@ -58,7 +57,7 @@ namespace Creating_a_Form_with_Table.Controllers
 
         private Hashtable Initialize(JObject data)
         {
-            
+
             var form = CreateForm();
 
             var options = new Hashtable
@@ -83,9 +82,9 @@ namespace Creating_a_Form_with_Table.Controllers
 
             label.Text.Expression = "Custom Order Form";
             label.Text.Font = new System.Drawing.Font("Segoe UI", 44, System.Drawing.FontStyle.Bold);
-            label.Text.HorizontalAlignment = StiHorizontalAlignment.Center;            
+            label.Text.HorizontalAlignment = StiHorizontalAlignment.Center;
 
-            page.Elements.Add(label); 
+            page.Elements.Add(label);
 
             var table = new StiTableElement()
             {
@@ -134,14 +133,14 @@ namespace Creating_a_Form_with_Table.Controllers
 
             table.Columns.Add(new StiLabelColumnItem()
             {
-               Label = "Total",
-               HeaderAlignment = StiHorizontalAlignment.Center,
-               Expression = "{Col(4) * Col(5)}",
-               Prefix = "$",
-               CellAlignment = StiHorizontalAlignment.Right
+                Label = "Total",
+                HeaderAlignment = StiHorizontalAlignment.Center,
+                Expression = "{Col(4) * Col(5)}",
+                Prefix = "$",
+                CellAlignment = StiHorizontalAlignment.Right
             });
 
-            for (var i = 1; i <= 10; i++)            
+            for (var i = 1; i <= 10; i++)
                 table.RowsCollection.Labels.Add(i.ToString());
 
             table.RowsCollection.Width = 20;

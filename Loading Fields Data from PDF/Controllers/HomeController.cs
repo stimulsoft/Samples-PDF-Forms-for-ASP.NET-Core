@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.IO;
-using Stimulsoft.Form.Pdf.Import.ParsePdf;
 using Stimulsoft.Form.Pdf.Import.Helper;
+using Stimulsoft.Form.Pdf.Import.ParsePdf;
+using System.IO;
 
 namespace Loading_Fields_Data_from_PDF.Controllers
 {
@@ -28,7 +28,7 @@ namespace Loading_Fields_Data_from_PDF.Controllers
 
                     ViewData["pdfData"] = StiPdfImportDocumentHelper.ConvertData(document);
                 }
-            
+
             return View("Index");
         }
 

@@ -1,7 +1,7 @@
 ﻿using Stimulsoft.Form;
-using Stimulsoft.Form.Pdf.Export;
 using Stimulsoft.Form.Items;
 using Stimulsoft.Form.Items.Elements;
+using Stimulsoft.Form.Pdf.Export;
 using System.Collections;
 using System.IO;
 using System.Net;
@@ -65,7 +65,7 @@ namespace Sending_a_Form_by_Email
                 mailMessage.Attachments.Add(attachment);
 
                 smtpClient.Send(mailMessage);
-            }            
+            }
         }
     }
 }

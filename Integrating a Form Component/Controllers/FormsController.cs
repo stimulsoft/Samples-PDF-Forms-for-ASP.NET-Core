@@ -27,7 +27,7 @@ namespace Integrating_a_Form_Component.Controllers
                 {
                     case "Initialize":
                         var initData = StiWebForm.Initialize(data, null);
-                        return Json(initData.Content);               
+                        return Json(initData.Content);
 
                     default:
                         var result = StiWebForm.ProcessRequest(data);
@@ -44,9 +44,9 @@ namespace Integrating_a_Form_Component.Controllers
                 {
                     Content = e.Message,
                     ContentType = "text/plain"
-                };    
+                };
             }
         }
-       
+
     }
 }

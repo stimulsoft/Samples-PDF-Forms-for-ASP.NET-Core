@@ -1,16 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Stimulsoft.Base.Json.Linq;
-using Stimulsoft.Form.Items;
 using Stimulsoft.Form;
+using Stimulsoft.Form.Helpers;
+using Stimulsoft.Form.Items;
 using Stimulsoft.Form.Items.Elements;
+using Stimulsoft.Form.Pdf.Export;
+using Stimulsoft.Form.Submission;
 using Stimulsoft.Form.Web;
+using System;
 using System.Collections;
 using System.Text;
-using System;
-using Microsoft.AspNetCore.Http;
-using Stimulsoft.Form.Submission;
-using Stimulsoft.Form.Helpers;
-using Stimulsoft.Form.Pdf.Export;
 
 namespace Generating_PDF_from_Form_Submission.Controllers
 {
@@ -41,7 +41,7 @@ namespace Generating_PDF_from_Form_Submission.Controllers
                 {
                     case "Initialize":
                         resultForm = null;
-                        var initData = StiWebForm.Initialize(data, Initialize(data));                        
+                        var initData = StiWebForm.Initialize(data, Initialize(data));
                         return Json(initData.Content);
 
                     case "SaveForm":
@@ -94,7 +94,7 @@ namespace Generating_PDF_from_Form_Submission.Controllers
                 request.Body.Position = 0;
             }
 
-            return new ContentResult(); 
+            return new ContentResult();
         }
 
         public IActionResult GetPdf()
@@ -108,20 +108,20 @@ namespace Generating_PDF_from_Form_Submission.Controllers
                 StiFormFillHelper.FillForm(form, data);
             }
             (form.GetElementByName("Button") as StiButtonElement).Visible = false;
-            
+
             StiPdfExporter exporter = new StiPdfExporter();
             var pdf = exporter.ExportForm(form);
 
             dataChanged = false;
 
-            return new FileContentResult(pdf, "application/pdf"); 
+            return new FileContentResult(pdf, "application/pdf");
         }
 
         private Hashtable Initialize(JObject data)
         {
             var form = new StiForm();
             form.Load(FormPath);
-           
+
             var options = new Hashtable
             {
                 ["form"] = Convert.ToBase64String(Encoding.UTF8.GetBytes(form.SaveToString()))

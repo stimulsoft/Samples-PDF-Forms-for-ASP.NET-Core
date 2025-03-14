@@ -28,7 +28,7 @@ namespace Viewing_Forms_and_Parsing_Submission_Results.Controllers
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
-        private static List<Hashtable> Submits = new List<Hashtable>();        
+        private static List<Hashtable> Submits = new List<Hashtable>();
 
         [HttpPost]
         public IActionResult Action()
@@ -44,10 +44,10 @@ namespace Viewing_Forms_and_Parsing_Submission_Results.Controllers
                         return Json(initData.Content);
 
                     case "GetFonts":
-                        if (data["fonts"] != null &&  (data["fonts"] as JArray).Count> 0 && (data["fonts"] as JArray)[0]["fontFamily"].ToString() == "Mrs. Monster")
+                        if (data["fonts"] != null && (data["fonts"] as JArray).Count > 0 && (data["fonts"] as JArray)[0]["fontFamily"].ToString() == "Mrs. Monster")
                         {
                             List<Hashtable> fontResources = new List<Hashtable>();
-                            
+
                             /*Hashtable fontResourceItem = new Hashtable();
                             var content = System.IO.File.ReadAllBytes("Fonts/mrsmonster.ttf");
                             fontResourceItem["contentForCss"] = String.Format("data:{0};base64,{1}", "application/x-font-ttf", Convert.ToBase64String(content));
@@ -67,13 +67,14 @@ namespace Viewing_Forms_and_Parsing_Submission_Results.Controllers
                             _ => Json(result.Content),
                         };
                 }
-            }catch (Exception e)
+            }
+            catch (Exception e)
             {
                 return new ContentResult()
                 {
                     Content = e.Message,
                     ContentType = "text/plain"
-                };    
+                };
             }
         }
 
@@ -90,9 +91,9 @@ namespace Viewing_Forms_and_Parsing_Submission_Results.Controllers
                 if (properties["formName"] != null)
                 {
                     var form = GetForm(properties["formName"].ToString());
-                    
+
                     options["form"] = Convert.ToBase64String(Encoding.UTF8.GetBytes(form.SaveToString()));
-                }                    
+                }
             }
 
             options["fontFamilies"] = StiWebFormHelper.GetSystemFontFamilies();
@@ -131,7 +132,7 @@ namespace Viewing_Forms_and_Parsing_Submission_Results.Controllers
             return View("Results");
         }
 
-        public IActionResult ResultPdf(int id) 
+        public IActionResult ResultPdf(int id)
         {
             var content = Submits[id]["pdf"] as byte[];
             return new FileContentResult(content, "application/pdf");
@@ -148,7 +149,7 @@ namespace Viewing_Forms_and_Parsing_Submission_Results.Controllers
             {
                 buffer = reader.ReadBytes(Convert.ToInt32(request.ContentLength));
             }
-            
+
             if (type == "pdf")
             {
                 var submit = new Hashtable

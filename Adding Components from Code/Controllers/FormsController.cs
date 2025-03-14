@@ -42,13 +42,14 @@ namespace Adding_Components_from_Code.Controllers
                             _ => Json(result.Content),
                         };
                 }
-            }catch (Exception e)
+            }
+            catch (Exception e)
             {
                 return new ContentResult()
                 {
                     Content = e.Message,
                     ContentType = "text/plain"
-                };    
+                };
             }
         }
 
@@ -86,6 +87,6 @@ namespace Adding_Components_from_Code.Controllers
             form.Pages[0].Elements.Add(image);
             form.Pages[0].Elements.Add(companyName);
         }
-      
+
     }
 }

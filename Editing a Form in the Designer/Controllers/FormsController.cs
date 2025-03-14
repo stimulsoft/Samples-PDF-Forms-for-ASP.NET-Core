@@ -36,10 +36,10 @@ namespace Editing_a_Form_in_the_Designer.Controllers
                         return Json(initData.Content);
 
                     case "GetFonts":
-                        if (data["fonts"] != null &&  (data["fonts"] as JArray).Count> 0 && (data["fonts"] as JArray)[0]["fontFamily"].ToString() == "Mrs. Monster")
+                        if (data["fonts"] != null && (data["fonts"] as JArray).Count > 0 && (data["fonts"] as JArray)[0]["fontFamily"].ToString() == "Mrs. Monster")
                         {
                             List<Hashtable> fontResources = new List<Hashtable>();
-                            
+
                             /*Hashtable fontResourceItem = new Hashtable();
                             var content = System.IO.File.ReadAllBytes("Fonts/mrsmonster.ttf");
                             fontResourceItem["contentForCss"] = String.Format("data:{0};base64,{1}", "application/x-font-ttf", Convert.ToBase64String(content));
@@ -74,7 +74,7 @@ namespace Editing_a_Form_in_the_Designer.Controllers
                 {
                     Content = e.Message,
                     ContentType = "text/plain"
-                };    
+                };
             }
         }
 
@@ -123,7 +123,7 @@ namespace Editing_a_Form_in_the_Designer.Controllers
 
         private void SaveFileString(string folder, string fileName, StiForm form)
         {
-            
+
         }
     }
 }
