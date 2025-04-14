@@ -5,6 +5,6 @@
     <RootNamespace>Loading_a_Form_from_String</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2025.2.1" />
+    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2025.2.2" />
   </ItemGroup>
 </Project>
