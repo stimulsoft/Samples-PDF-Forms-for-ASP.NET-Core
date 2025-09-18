@@ -1,6 +1,6 @@
 # ASP.NET Core MVC C# samples for Stimulsoft PDF Forms
 
-#### This repository contains the source code of the examples of usage Stimulsoft PDF Forms tool in the ASP.NET Core applications, using C# code and Angular components. The form designer and examples are compatible with .NET Framework 4.5.2, 4.6, 4.7, 4.8 versions, and .NET Core 3.1, .NET 5.0, .NET 6.0, .NET 7.0 platforms.
+#### This repository contains the source code of examples demonstrating the usage of the Stimulsoft PDF Forms tool in ASP.NET Core applications, using C# code and Angular components. The form designer and components are compatible with .NET Framework 4.5.2 and higher, as well as with .NET 6.0 and all later versions.
 
 ## Overview
 This repository contains a set of examples (Visual Studio projects), each in different folders:
@@ -23,7 +23,7 @@ This repository contains a set of examples (Visual Studio projects), each in dif
 All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings.
 
 ## Running samples
-In order to start simply open the Visual Studio solution file in the IDE and run the required project as Startup Project. The required libraries will be automatically downloaded from the NuGet repository. The examples contain an already compiled Angular application. To recompile the Angular part of the project, you should open the `ClientApp` directory and run the `build.cmd` file. All compiled files will be copied to the `wwwroot` directory automatically. Also, the examples are configured to automatically compile the Angular application when building the project.
+In order to start simply open the Visual Studio solution file in the IDE and run the required project as Startup Project. The required libraries will be automatically downloaded from the NuGet repository. The examples contain an already compiled Angular application. To recompile the Angular part of the project, you should open the `ClientApp` directory and run the `build-angular.cmd` file. All compiled files will be copied to the `wwwroot` directory automatically. Also, the examples are configured to automatically compile the Angular application when building the project.
 
 ## About Stimulsoft PDF Forms
 Stimulsoft Forms is a component for the interactive collection and processing of user data. The Forms tool easily integrates into your project or application, has an intuitive and user-friendly interface, and allows you to create rich form templates. Stimulsoft Forms is a new level of interaction with users in your application.
