@@ -5,7 +5,7 @@
     <RootNamespace>Sending_a_Form_by_Email</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2025.3.5" />
+    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2025.4.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Data\CustomerSatisfactionSurvey.mrt">
