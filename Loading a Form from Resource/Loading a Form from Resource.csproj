@@ -10,6 +10,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2025.4.3" />
+    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2026.1.1" />
   </ItemGroup>
 </Project>

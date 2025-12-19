@@ -4,7 +4,7 @@
     <RootNamespace>Working_with_Forms_from_Code</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2025.4.3" />
+    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2026.1.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Forms\Order.mrt">
