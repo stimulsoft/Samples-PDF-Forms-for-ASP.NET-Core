@@ -5,7 +5,7 @@
     <RootNamespace>Loading_a_Form_from_File</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2026.1.3" />
+    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2026.1.4" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Data\SoftwareEvaluationSurvey.mrt">
