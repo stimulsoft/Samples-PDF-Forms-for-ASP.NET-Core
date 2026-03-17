@@ -7,8 +7,8 @@ import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
 import { StiHelperService } from 'stimulsoft-forms/lib/services/sti-helper.service';
 
 @Component({
-  selector: 'app-root',
-  template: `
+    selector: 'app-root',
+    template: `
       <div style="width: 100%;height:100%">
         <div style="width: 50%; display: inline-block;height: 100%;">
           <stimulsoft-forms
@@ -29,11 +29,12 @@ import { StiHelperService } from 'stimulsoft-forms/lib/services/sti-helper.servi
 
 
   `,
-  styles: [
-    `
+    styles: [
+        `
 
     `,
-  ],
+    ],
+    standalone: false
 })
 export class AppComponent {
 

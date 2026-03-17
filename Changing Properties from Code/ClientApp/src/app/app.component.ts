@@ -6,8 +6,8 @@ import { StiForm } from 'stimulsoft-forms/lib/elements/StiForm';
 import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
 
 @Component({
-  selector: 'app-root',
-  template: `
+    selector: 'app-root',
+    template: `
       <stimulsoft-forms
         #fromComponent
         [requestUrl]="'http://localhost:59902/Forms/Action'"
@@ -18,7 +18,8 @@ import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
         [style.height]="'100%'"
         (interfaceEvent)="interfaceEvent($event)">
       </stimulsoft-forms>
-  `
+  `,
+    standalone: false
 })
 export class AppComponent {
 

@@ -4,8 +4,8 @@ import { StiForm } from 'stimulsoft-forms/lib/elements/StiForm';
 import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
 
 @Component({
-  selector: 'app-root',
-  template: `
+    selector: 'app-root',
+    template: `
   <div style="height:30px; width:100vw; text-align:center">
      <input type="button" value="Online form" style="margin:3px" (click)="mode='online-form'"/>
      <input type="button" value="PDF form" style="margin:3px" (click)="mode='pdf-form'"/>
@@ -36,7 +36,8 @@ import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
         style="width: 100%; height: 100%">
     </iframe>
   </div>
-  `
+  `,
+    standalone: false
 })
 export class AppComponent {
 

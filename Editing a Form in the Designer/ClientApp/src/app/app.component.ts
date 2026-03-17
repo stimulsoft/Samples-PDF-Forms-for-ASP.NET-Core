@@ -17,7 +17,8 @@ import { StiInterfaceEvent } from 'stimulsoft-forms/lib/services/objects';
       id="sti-form"
     >
     </stimulsoft-forms>
-  `
+  `,
+  standalone: false
 })
 export class AppComponent {
 
