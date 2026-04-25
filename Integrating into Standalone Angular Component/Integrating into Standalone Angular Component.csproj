@@ -10,7 +10,7 @@
     <None Remove="ClientApp\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2026.1.7" />
+    <PackageReference Include="Stimulsoft.PDF.Forms" Version="2026.2.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Forms\Order.mrt">
