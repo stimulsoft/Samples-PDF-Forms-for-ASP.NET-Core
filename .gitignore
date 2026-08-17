@@ -25,3 +25,5 @@ Thumbs.db
 *-test.cmd
 *.Test.csproj
 *.Test.sln
+/Editing a Form in the Designer/ClientApp/dist
+/Editing a Form in the Designer/ClientApp/dist
